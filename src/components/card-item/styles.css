@@ -1,7 +1,7 @@
 .card{
     
-    padding: 100px;
-    align-items: center;
+    padding: 50px;
+    justify-content: center;
     background-color: antiquewhite;
     border: seagreen solid 1px;
     border-radius: 3%;
