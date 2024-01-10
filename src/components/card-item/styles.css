@@ -1,0 +1,12 @@
+.card{
+    
+    padding: 100px;
+    align-items: center;
+    background-color: antiquewhite;
+    border: seagreen solid 1px;
+    border-radius: 3%;
+}
+
+.card:hover{
+   background-color: seagreen  ;
+}
