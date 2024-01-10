@@ -1,21 +1,24 @@
-// import React from 'react'
-// import './styles.css'
-import { Outlet } from 'react-router-dom'
+import React from 'react'
+import './styles.css'
+import { Fragment } from 'react'
+import { Outlet, Link } from 'react-router-dom'
 
 const Navigation = () => {
   return (
-    <div className='nav'>
-    <a>
+   <Fragment>
+     <div className='nav'>
+     <Link to='/'>
         Home
-    </a>
-    <a>
+    </Link>
+    <Link to='/about'>
         About
-    </a>
-    <a>
+    </Link>
+    <Link to='/contact'>
         Contact
-    </a>
+    </Link>
+     </div>
     <Outlet/>
-    </div>
+   </Fragment>
     
   )
 }
